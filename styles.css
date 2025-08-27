@@ -1,8 +1,17 @@
+body{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 #calculator{
     background-color: hsl(0, 0%, 15%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-width: 660px;
+    max-width: 470px;
     overflow: hidden;
+    border-radius: 15px;
 }
 
 #display{
@@ -27,6 +36,7 @@
 button{
     gap: 5px;
     width: 100px;
+    height: 100px;
     border-radius: 50px;
     border:none;
     color:aliceblue;
@@ -39,4 +49,11 @@ button{
 
 button:active{ 
     background-color: hsl(0, 0%, 25%);
+}
+
+#change{
+    background-color: orange;
+}
+#change:active{
+    background-color: hsl(39, 100%, 100%);
 }
